@@ -29,6 +29,7 @@ form {
   justify-content: center;
   gap: 1rem;
   margin: 2rem 0;
+  margin-bottom: 2rem;
 }
 
 input[type=search] {
@@ -69,7 +70,4 @@ button {
   .col {
     flex: 0 0 100%;
   }
-}
-body {
-  background: red;
 }/*# sourceMappingURL=styles.css.map */
