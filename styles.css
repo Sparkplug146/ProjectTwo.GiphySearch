@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
@@ -31,7 +31,7 @@ form {
   margin: 2rem 0;
 }
 
-input[type="search"] {
+input[type=search] {
   padding: 0.5rem;
   width: 300px;
 }
@@ -53,28 +53,23 @@ button {
 }
 
 @media (max-width: 320px) {
-
   header {
     flex-direction: column;
     text-align: center;
   }
-
   nav ul {
     flex-direction: column;
     gap: 0.5rem;
     margin-top: 1rem;
   }
-
   form {
     flex-direction: column;
     align-items: center;
   }
-
   .col {
     flex: 0 0 100%;
   }
 }
-
 body {
-    background: red;
-}
+  background: red;
+}/*# sourceMappingURL=styles.css.map */
