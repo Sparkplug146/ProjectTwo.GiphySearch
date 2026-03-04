@@ -1,11 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h>Hello World!</h>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GIPHY.SearchEngine</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>GIPHY Search Engine</h1>
+
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <form id="search-form">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Search for GIFs..."
+          required
+        />
+        <button type="submit">Search</button>
+      </form>
+      <div id="results" class="row"></div>
+    </main>
+    <script src="main.js"></script>
+  </body>
 </html>
