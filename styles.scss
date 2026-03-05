@@ -9,8 +9,9 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #111;
+  background-color: #1e1e1e;
   color: white;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 nav ul {
@@ -21,7 +22,12 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff4d8d;
 }
 
 form {
@@ -40,6 +46,18 @@ input[type="search"] {
 button {
   padding: 0.5rem 1rem;
   cursor: pointer;
+  background-color: #ff4d8d;
+  border: none;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button.hover {
+  background-color: #e63e7a;
+}
+
+input, button {
+  border-radius: 4px;
 }
 
 .row {
@@ -51,6 +69,18 @@ button {
 
 .col {
   flex: 0 0 23%;
+}
+
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+input[type="search"] {
+  background-color: #2a2a2a;
+  color: #ffffff;
+  border: 1px solid #444;
 }
 
 @media (max-width: 320px) {
