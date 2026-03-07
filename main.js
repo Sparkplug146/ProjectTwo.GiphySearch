@@ -9,7 +9,7 @@ form.addEventListener("submit", function(){
     console.log(searchTerm);
 })
 
-const apiKey = "YOUR_API_KEY";
+const apiKey = "9rkKRrjFQIofMVpMWFXUvEjf0p3BAIEx";
 
 async function searchGifs(searchTerm) {
 
