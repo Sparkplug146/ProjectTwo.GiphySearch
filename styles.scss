@@ -96,6 +96,23 @@ input[type="search"] {
   }
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.col {
+  flex: 1 1 250px;
+  max-width: 250px;
+}
+
+.col img {
+  width: 100%;
+  border-radius: 8px;
+}
+
 
 
 @media (max-width: 320px) {
