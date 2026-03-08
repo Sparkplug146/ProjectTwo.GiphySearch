@@ -30,12 +30,14 @@ data.data.forEach(function(gif) {
 
     const gifUrl = gif.images.fixed_height.url;
 
-    const img = document.createElement("img");
+   const col = document.createElement("div");
+col.classList.add("col");
 
-    img.src = gifUrl;
+const img = document.createElement("img");
+img.src = gifUrl;
 
-    results.appendChild(img);
-
+col.appendChild(img);
+results.appendChild(col);
 });
 
 }
